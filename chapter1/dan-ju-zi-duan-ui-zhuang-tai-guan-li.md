@@ -1,6 +1,6 @@
-# 单据字段UI状态管理
+# 单据字段UI状态管理 & 前端格式化校验
 
-单据使用了`chanjet-nova`中的`simple-form`来维护单据字段的 UI 状态 。API 和使用方式都和档案的 Form 雷同，此处不予赘述。
+单据使用了`chanjet-nova`中的`simple-form`来维护单据字段的 UI 状态 & 前端格式化校验 。API 和使用方式都和档案的 Form 雷同，此处不予赘述。
 
-
+_注意：提示信息 是 单据自己增加的状态值，在`simple-form`中并不存在。_
 
