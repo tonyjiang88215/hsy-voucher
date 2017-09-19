@@ -14,4 +14,6 @@
   * [生命周期](chapter1/sheng-ming-zhou-qi.md)
   * [模块异步加载](chapter1/mo-kuai-yi-bu-jia-zai.md)
   * [Controllers](chapter1/controllers.md)
+* [应用公共](ying-yong-gong-gong.md)
+  * [菜单按钮](ying-yong-gong-gong/cai-dan-an-niu.md)
 
