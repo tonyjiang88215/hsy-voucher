@@ -19,5 +19,9 @@ Controller 中包含了单据公共的功能集合，分为以下几部分：
 
 支持了 gotoNew、gotoView、closeAndGotoList、gotoList、gotoSetting 等路由跳转；
 
+## StateController {#statecontroller}
+
+状态管理器，负责管理单据的编辑状态、业务状态 以及 侧边栏的UI状态，持有单据初始化的Option，并将默认的Option进行merge，来保证代码执行的正确性；
+
 
 
