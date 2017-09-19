@@ -8,7 +8,7 @@
 
 权限功能定义在枚举 ---- `transaction_type` 中，有兴趣可以在 metadata 中进行查看；
 
-注： [authController](#authController)
+注： [authController](#权限功能)
 
 ## 
 
