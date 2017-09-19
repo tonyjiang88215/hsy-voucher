@@ -19,6 +19,12 @@ Controller 中包含了单据公共的功能集合，分为以下几部分：
 
 支持了 gotoNew、gotoView、closeAndGotoList、gotoList、gotoSetting 等路由跳转；
 
+## FomatterController
+
+格式化处理器，负责对字段进行格式化处理，会提供默认的格式化函数，默认格式化会处理枚举、参照、日期这三种特殊字段；
+
+支持具体单据自定义格式化函数；
+
 ## StateController {#statecontroller}
 
 状态管理器，负责管理单据的编辑状态、业务状态 以及 侧边栏的UI状态，持有单据初始化的Option，并将默认的Option进行merge，来保证代码执行的正确性；
