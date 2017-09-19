@@ -7,6 +7,6 @@
   * [单据UI布局](chapter1/dan-ju-ui-bu-ju.md)
   * [单据状态管理](chapter1/dan-ju-zi-duan-ui-zhuang-tai-guan-li.md)
   * [增删改查](chapter1/zeng-shan-gai-cha.md)
-  * [功能权限及可用状态](gong-neng-quan-xian.md)
+  * [功能权限 & 可用状态](gong-neng-quan-xian.md)
   * [Controllers](chapter1/controllers.md)
 
