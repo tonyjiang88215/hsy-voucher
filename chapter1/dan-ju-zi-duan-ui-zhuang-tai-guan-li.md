@@ -15,7 +15,7 @@
 * 编辑
 * 查看
 
-注：编辑状态 和 业务状态 在 [StateController](/statecontroller) 中进行管理;
+注：编辑状态 和 业务状态 在 [StateController](#statecontroller) 中进行管理;
 
 ## 单据字段状态
 
