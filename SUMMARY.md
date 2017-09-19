@@ -9,4 +9,5 @@
   * [增删改查](chapter1/zeng-shan-gai-cha.md)
   * [功能权限 & 可用状态](gong-neng-quan-xian.md)
   * [Controllers](chapter1/controllers.md)
+  * [全局样式](chapter1/quan-ju-yang-shi.md)
 
