@@ -10,8 +10,8 @@
 * [全局样式](/chapter1/quan-ju-yang-shi.md)
 * [显示格式化](/chapter1/xian-shi-ge-shi-hua.md)
 * [全键盘](/chapter1/quan-jian-pan.md)
-* 生命周期
-* 模块异步加载
+* [生命周期](/chapter1/sheng-ming-zhou-qi.md)
+* [模块异步加载](/chapter1/mo-kuai-yi-bu-jia-zai.md)
 
 
 
