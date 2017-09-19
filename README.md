@@ -1,3 +1,10 @@
-# My Awesome Book
+# 好生意单据公共
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+## 总览
+
+单据公共提取了大部分单据共有的需求和通用处理，并进行实现，**目的是为了能够让具体单据的开发者可以聚焦在具体单据的业务逻辑上。**
+
+## 分层
+
+单据公共为了明确各层职责，提高代码的可维护性和可扩展性，在设计层面上，对功能及区域进行了分层。分为 [**单据公共**](/chapter1.md)、**应用公共**、**具体单据 **三层。
+
