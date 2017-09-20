@@ -66,5 +66,13 @@ export interface IVoucherLifecycle {
 
 
 
+## beforeSave
 
+当要调用接口保存单据时，会调用这个生命周期，这个生命周期允许 return false 来阻止保存。同时也支持 Promise 格式。
+
+
+
+## beforeDelete
+
+当要调用接口删除单据时，会调用这个生命周期，这个生命周期允许 return false 来阻止删除。同时也支持 Promise 格式。
 
