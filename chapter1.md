@@ -2,7 +2,7 @@
 
 单据公共作为整个单据的基础，主要负责创建并维护以下内容：
 
-* 目录结构
+* [目录结构](/chapter1/mu-lu-jie-gou.md)
 * [单据模型](/chapter1/dan-ju-mo-xing.md)
 * [单据UI布局](/chapter1/dan-ju-ui-bu-ju.md)
 * [单据状态管理](/chapter1/dan-ju-zi-duan-ui-zhuang-tai-guan-li.md)
