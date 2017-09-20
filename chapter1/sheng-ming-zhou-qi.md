@@ -58,11 +58,13 @@ export interface IVoucherLifecycle {
 1. 在 Voucher.tsx 中重写对应方法；
 2. 通过 EventController 进行对应生命周期的事件监听；
 
-
-
 ## onCreateRow
 
-当单据子表新增行时，会创建调用当前的生命周期
+当单据子表新增行时，会创建调用当前的生命周期，参数中会把当前子表的字段名，以及 RowField 返回。
+
+> 注： RowField 不要被持有，当 onInstanceCreated 触发时，所有之前的 Field 都会作废。
+
+
 
 
 
