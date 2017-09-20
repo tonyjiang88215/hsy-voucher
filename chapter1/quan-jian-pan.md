@@ -27,13 +27,21 @@
 
 单据公共 以及 应用公共已经提供了基本的全键盘组件，可供直接使用
 
-在 `/src/components/voucher/qwert` 目录下的组件，：
+在 `/src/components/voucher/qwert/refer` 目录下的组件，是实现了参照全键盘的组件，但是并未接入单据全键盘管理：
 
-* QwertEditor 单据头部使用的组件，**等同于 DataField**;
-  * QwertReferEditor 单据头部使用的参照组件，**等同于 ReferField**;
-    * QwertReferGridEditor 单据头部专门给 ReferGridComponent 提供的组件，**等同于 ReferGridComponent**；
-    * QwertReferCommonEditor 单据头部其他类型的参照组件，**等同于 ReferField - ReferGridComponent**；
-  * QwertCommonEditor 单据头部使用的其他组件，包含了除参照意外的其他所有组件，**等同于 DataField - ReferField**；
+* ReferEditor **等同于 ReferField**;
+  * ReferGridEditor **等同于 ReferGridComponent**；
+  * ReferCommonEditor **等同于 ReferField - ReferGridComponent**；
+
+
+
+在 `/src/components/voucher/qwert` 目录下的组件，是基于参照全键盘基础上，接入了单据全键盘的组件，只能在单据头部或者单据扩展区使用，如果在组件内使用，请使用上边的组件：
+
+* QwertEditor **等同于 DataField**;
+  * QwertReferEditor **等同于 ReferField**;
+    * QwertReferGridEditor **等同于 ReferGridComponent**；
+    * QwertReferCommonEditor **等同于 ReferField - ReferGridComponent**；
+  * QwertCommonEditor **等同于 DataField - ReferField**；
 
 ### 
 
