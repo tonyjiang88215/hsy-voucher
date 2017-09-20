@@ -2,6 +2,7 @@
 
 * [目录](README.md)
 * [单据公共](chapter1.md)
+  * [目录结构](chapter1/mu-lu-jie-gou.md)
   * [单据模型](chapter1/dan-ju-mo-xing.md)
     * [使用单据工具](chapter1/dan-ju-mo-xing/shi-yong-dan-ju-gong-ju.md)
   * [单据UI布局](chapter1/dan-ju-ui-bu-ju.md)
