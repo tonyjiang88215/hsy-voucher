@@ -45,5 +45,15 @@ export interface IQwertItem {
 * active 当前元素获取焦点时，被调用的方法，direaction 表示当前移动的方向，keyCode 表示当前按下的键盘；
 * deactive 当前元素失去焦点时，被调用的方法；
 
+### 装饰器 @qwert
+
+支持全键盘的组件需要使用 @qwert 装饰器进行包装，并实现 IQwertItem 的接口。具体可以参考 `/src/component/voucher/qwert/` 目录下，Qwert 开头的组件。
+
+### 装饰器 @qwertSelect
+
+qwertSelect 是为了解决在 Grid 中使用 Select 组件 而提供的装饰器，它主要解决了当 Select 显示下拉列表时，阻止上下键，导致 Grid 单元格切换焦点的问题；
+
+
+
 **至此，我们已经拥有了可以完成任何全键盘组件所需要的所有概念了。**
 
