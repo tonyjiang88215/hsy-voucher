@@ -53,18 +53,16 @@ export interface IVoucherLifecycle {
 
 参数 instance 是基于 `simple-form` 创建的实例。
 
-
-
-
-
-
-
-
-
 生命周期有两种方式可以实现：
 
 1. 在 Voucher.tsx 中重写对应方法；
 2. 通过 EventController 进行对应生命周期的事件监听；
+
+
+
+## onCreateRow
+
+当单据子表新增行时，会创建调用当前的生命周期
 
 
 
