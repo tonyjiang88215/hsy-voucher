@@ -19,11 +19,31 @@ Controller 中包含了单据公共的功能集合，分为以下几部分：
 
 支持了 gotoNew、gotoView、closeAndGotoList、gotoList、gotoSetting 等路由跳转；
 
+## CommandController
+
+命令管理器，负责维护单据所有可执行的命令。目前命令包括了全部的CRUD 和 单据公共的按钮功能，具体可以参考枚举 `CommandTypes`。
+
+## EventController
+
+事件管理器，负责管理单据内事件的注册、监听、派发，不予赘述。
+
 ## FomatterController
 
 格式化处理器，负责对字段进行格式化处理，会提供默认的格式化函数，默认格式化会处理枚举、参照、日期这三种特殊字段；
 
 支持具体单据自定义格式化函数；
+
+## FormController
+
+
+
+## GridProfileUpdater
+
+## LifecycleController
+
+## ModuleController
+
+## QwertController
 
 ## StateController {#statecontroller}
 
