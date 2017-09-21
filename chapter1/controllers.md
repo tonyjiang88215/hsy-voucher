@@ -35,15 +35,29 @@ Controller 中包含了单据公共的功能集合，分为以下几部分：
 
 ## FormController
 
+单据数据管理器，单据最核心的控制器，负责创建单据数据实例，管理单据的字段状态，公共的数据逻辑（比如：参照携带字段联动更新，自定义字段联动更新等）。
 
+提供了对数据进行清洗的API：clean、cleanBody、cleanBodyRow等方法；
+
+提供了获取服务端可用数据的API： getValue；
+
+提供了对明细行操作的API： insertRow、insertOrReuseRow、appendRow、appendOrReuseRow；
 
 ## GridProfileUpdater
 
+单据表体列配置管理器，当用户修改单据表体的列配置时，将配置信息同步到单据模型中。
+
 ## LifecycleController
+
+生命周期管理器，负责维护所有生命周期，并在生命周期执行时，同步触发对应的事件；
 
 ## ModuleController
 
+模块加载器，负责维护所有异步加载的模块及实例。
+
 ## QwertController
+
+全键盘管理器，根据单据模型生成全键盘焦点顺序，并管理焦点的切换。@qwert 装饰器所装饰的组件，会被注册到QwertController。
 
 ## StateController {#statecontroller}
 
