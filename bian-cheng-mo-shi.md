@@ -15,3 +15,9 @@
 
 比如你想在保存之前做额外处理，在适当的时候阻止保存，请使用 beforeSave；具体请参考 [生命周期](/chapter1/sheng-ming-zhou-qi.md)
 
+## 数据驱动
+
+单据公共使用`chanjet-nova/simple-form` 来管理单据数据实例, 所以单据数据本身是 `observable` 的。当UI需要变化时，优先使用单据数据进行驱动是一种比较好的方式。
+
+
+
