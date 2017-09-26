@@ -1,7 +1,7 @@
 # Summary
 
 * [目录](README.md)
-* [目录结构](/chapter1/mu-lu-jie-gou.md)
+* [项目文件结构](/chapter1/mu-lu-jie-gou.md)
 * [单据公共](chapter1.md)
   * [单据模型](chapter1/dan-ju-mo-xing.md)
     * [数据级别](/chapter1/dan-ju-mo-xing/shu-ju-ji-bie.md)
@@ -16,12 +16,9 @@
     * [全键盘概念原理](chapter1/quan-jian-pan/quan-jian-pan-gai-nian-yuan-li.md)
   * [生命周期](chapter1/sheng-ming-zhou-qi.md)
   * [Controllers](chapter1/controllers.md)
-
 * [应用公共\(TBC\)](ying-yong-gong-gong.md)
   * [菜单按钮\(TBC\)](ying-yong-gong-gong/cai-dan-an-niu.md)
 * [子功能模块](chapter1/mo-kuai-yi-bu-jia-zai.md)
 * [编程模式](bian-cheng-mo-shi.md)
 * [常见问题\(TBC\)](chang-jian-wen-ti.md)
-
-
 
