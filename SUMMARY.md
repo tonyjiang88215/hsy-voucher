@@ -2,11 +2,14 @@
 
 * [目录](README.md)
 * [单据公共](chapter1.md)
+
   * [目录结构](chapter1/mu-lu-jie-gou.md)
   * [单据模型](chapter1/dan-ju-mo-xing.md)
-    * [数据级别](#)
 
-    * [使用单据工具](chapter1/dan-ju-mo-xing/shi-yong-dan-ju-gong-ju.md)
+    * [数据级别](/chapter1/dan-ju-mo-xing/shu-ju-ji-bie.md)
+
+    * [使用单据工具](/chapter1/shi-yong-dan-ju-gong-ju.md)
+
   * [单据UI布局](chapter1/dan-ju-ui-bu-ju.md)
   * [单据状态管理](chapter1/dan-ju-zi-duan-ui-zhuang-tai-guan-li.md)
   * [增删改查](chapter1/zeng-shan-gai-cha.md)
@@ -17,6 +20,7 @@
     * [全键盘概念原理](chapter1/quan-jian-pan/quan-jian-pan-gai-nian-yuan-li.md)
   * [生命周期](chapter1/sheng-ming-zhou-qi.md)
   * [Controllers](chapter1/controllers.md)
+
 * [应用公共\(TBC\)](ying-yong-gong-gong.md)
   * [菜单按钮\(TBC\)](ying-yong-gong-gong/cai-dan-an-niu.md)
 * [子功能模块](chapter1/mo-kuai-yi-bu-jia-zai.md)
