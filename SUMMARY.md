@@ -1,15 +1,11 @@
 # Summary
 
 * [目录](README.md)
+* [目录结构](/chapter1/mu-lu-jie-gou.md)
 * [单据公共](chapter1.md)
-
-  * [目录结构](chapter1/mu-lu-jie-gou.md)
   * [单据模型](chapter1/dan-ju-mo-xing.md)
-
     * [数据级别](/chapter1/dan-ju-mo-xing/shu-ju-ji-bie.md)
-
     * [使用单据工具](/chapter1/shi-yong-dan-ju-gong-ju.md)
-
   * [单据UI布局](chapter1/dan-ju-ui-bu-ju.md)
   * [单据状态管理](chapter1/dan-ju-zi-duan-ui-zhuang-tai-guan-li.md)
   * [增删改查](chapter1/zeng-shan-gai-cha.md)
