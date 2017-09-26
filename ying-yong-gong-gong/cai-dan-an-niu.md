@@ -4,8 +4,6 @@
 
 菜单按钮支持两级结构。
 
-
-
 ## 定义
 
 ```typescript
@@ -24,7 +22,23 @@ export interface IVoucherMenuAction extends IVoucherAction<IVoucherMenuState> {
 }
 ```
 
-### 
+## 公共按钮
 
+在 /src/modules/voucher/public/actions/menuActions.ts 文件中，定义了公共部分的功能按钮，在具体单据中，只需要直接使用即可
 
+## 按钮状态
+
+单据在不同的状态下，显示的按钮集合不同，按钮的可用状态也不同，这时我们需要对按钮的状态进行管理。
+
+```typescript
+// Location: /src/components/voucher/controllers/StateController.ts
+
+// 单据 Action 的状态对象，可以被继承进行状态扩展
+export interface IVoucherActionState{
+    visible: boolean;
+    enable: boolean;
+}
+```
+
+我们认为公共的 Action 状态都至少需要 可见（visible）、可用（enable）两种状态。
 
