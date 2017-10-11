@@ -1,6 +1,6 @@
 # Summary
 
-* [目录](README.md)
+* [概述](README.md)
 * [项目文件结构](/chapter1/mu-lu-jie-gou.md)
 * [单据公共](chapter1.md)
   * [单据模型](chapter1/dan-ju-mo-xing.md)
