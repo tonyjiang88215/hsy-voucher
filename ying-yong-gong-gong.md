@@ -8,9 +8,10 @@
 
 * 扩展区组件 @all
 
-* 商品扫码录入 @郑江
+* [商品扫码录入](/ying-yong-gong-gong/sao-ma-lu-ru.md)
 
 * 红蓝单数据转换 @郑江
+
 * ...
 
 
