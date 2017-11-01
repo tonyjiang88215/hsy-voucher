@@ -6,6 +6,7 @@
   * [单据模型](chapter1/dan-ju-mo-xing.md)
     * [数据级别](/chapter1/dan-ju-mo-xing/shu-ju-ji-bie.md)
     * [使用单据工具](/chapter1/shi-yong-dan-ju-gong-ju.md)
+    * [字段说明](chapter1/dan-ju-mo-xing/zi-duan-shuo-ming.md)
   * [单据UI布局](chapter1/dan-ju-ui-bu-ju.md)
   * [单据状态管理](chapter1/dan-ju-zi-duan-ui-zhuang-tai-guan-li.md)
   * [增删改查](chapter1/zeng-shan-gai-cha.md)
