@@ -21,6 +21,7 @@
   * [菜单按钮](ying-yong-gong-gong/cai-dan-an-niu.md)
   * [侧边栏区域](ying-yong-gong-gong/ce-bian-lan-qu-yu.md)
   * [扫码录入](ying-yong-gong-gong/sao-ma-lu-ru.md)
+  * [红蓝单数据转换](ying-yong-gong-gong/hong-lan-dan-shu-ju-zhuan-huan.md)
 * [子功能模块](chapter1/mo-kuai-yi-bu-jia-zai.md)
 * [编程模式](bian-cheng-mo-shi.md)
 * [常见问题\(TBC\)](chang-jian-wen-ti.md)
