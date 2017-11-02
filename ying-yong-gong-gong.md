@@ -10,7 +10,7 @@
 
 * [商品扫码录入](/ying-yong-gong-gong/sao-ma-lu-ru.md)
 
-* 红蓝单数据转换 @郑江
+* [红蓝单数据转换](/ying-yong-gong-gong/hong-lan-dan-shu-ju-zhuan-huan.md)
 
 * ...
 
