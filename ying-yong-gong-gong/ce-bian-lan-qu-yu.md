@@ -2,6 +2,8 @@
 
 侧边栏使用了好生意中的 Slider 组件，并按照单据的规范，生成了新组件 VoucherSlider。
 
+![](/assets/单据公共-侧边栏.png)
+
 侧边栏包括两个区域：
 
 * 侧边栏按钮
@@ -10,8 +12,6 @@
 ## 侧边栏按钮
 
 侧边栏按钮是显示侧边栏功能集合的悬浮按钮集合。每一个侧边栏内容都会对应一个按钮，并且在点击该按钮时，进行内容切换。
-
-
 
 侧边栏按钮区域分为两部分：
 
@@ -55,17 +55,13 @@ export interface IVoucherSliderAction extends IVoucherAction<IVoucherSliderActio
 }
 ```
 
-
-
 > 具体如何实现，可以参考单据公共的【草稿】.
 >
 > /src/components/voucher/actions/sliderActions.tsx
 
-
-
 ### 动态修改侧边栏状态
 
-在定义中，我们可以看到 `getState` 返回了单据的状态，这个状态在被初始化后，会被单据的 StateController 接管，从而提供一个 Observable 的状态对象出来。  
+在定义中，我们可以看到 `getState` 返回了单据的状态，这个状态在被初始化后，会被单据的 StateController 接管，从而提供一个 Observable 的状态对象出来。
 
 如果想动态设置侧边栏的状态，可以通过 StateController.sliderContentState 进行修改，StateController.sliderContentState 是一个 ObservableMap，其中 key 为 id，value 为当前侧边栏的状态对象。
 
@@ -76,14 +72,7 @@ export interface IVoucherSliderAction extends IVoucherAction<IVoucherSliderActio
 const { stateController } = presenter.controller;
 // 根据id，设置草稿不可见
 stateController.sliderContentState.get("draft").visible = false;
-
 ```
 
 其他状态也可以类似设置。
-
-
-
-
-
-
 
